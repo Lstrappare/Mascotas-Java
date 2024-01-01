@@ -1,16 +1,14 @@
 import java.util.Scanner;
 
-public class MasterSolobiano {
+public class Main{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String opcion = "";
 
         do {
-            System.out.println("                           **********************************************************");
-            System.out.println("                           ************** Bienvenido a Master Solobino **************");
-            System.out.println("                           **********************************************************\n");
-            System.out.println("\n");
-            System.out.println("\n");
+            System.out.println("**********************************************************");
+            System.out.println("************** Bienvenido a Master Solobino **************");
+            System.out.println("**********************************************************");
             System.out.println("\n");
             System.out.println("Te explicamos rapidamente como funcionana Master Solobino\n");
             System.out.println("En este apartado solo vamos a tener una visualizacion de las mascotas que tenemos para ti\n");
@@ -21,17 +19,14 @@ public class MasterSolobiano {
             System.out.println("2) Productos");
             System.out.println("0. Salir");
             System.out.println("\n");
-            System.out.println("\n");
-            System.out.println("\n");
-            System.out.println("\n");
 
             opcion = scanner.nextLine();
 
             switch (opcion) {
                 case "1":
-                    System.out.println("********************");
+                    System.out.println("***************************");
                     System.out.println("Que mascota estas buscando?");
-                    System.out.println("********************\n\n");
+                    System.out.println("***************************\n");
 
                     System.out.println("1) Perros          (Mas fieles que tu novia la toxica)");
                     System.out.println("2) Gatos           (Los reyes de la elegancia felina)\n");
@@ -40,13 +35,13 @@ public class MasterSolobiano {
 
                     switch (opcion) {
                         case "1":
-                            System.out.println("********************");
+                            System.out.println("***************");
                             System.out.println("Elige un perro:");
-                            System.out.println("********************\n\n");
+                            System.out.println("***************\n");
 
                             System.out.println("1) Perro1");
                             System.out.println("2) Perro2");
-                            System.out.println("3) Perro3\n\n");
+                            System.out.println("3) Perro3\n");
 
                             opcion = scanner.nextLine();
 
@@ -76,13 +71,13 @@ public class MasterSolobiano {
                             break;
 
                         case "2":
-                            System.out.println("********************");
+                            System.out.println("**************");
                             System.out.println("Elige un gato:");
-                            System.out.println("********************\n\n");
+                            System.out.println("**************\n");
 
                             System.out.println("1) Gato1");
                             System.out.println("2) Gato2");
-                            System.out.println("3) Gato3\n\n");
+                            System.out.println("3) Gato3\n");
 
                             opcion = scanner.nextLine();
 
@@ -119,9 +114,9 @@ public class MasterSolobiano {
                     break;
 
                 case "2":
-                    System.out.println("********************");
+                    System.out.println("****************************");
                     System.out.println("Que producto estas buscando?");
-                    System.out.println("********************\n\n");
+                    System.out.println("**************************\n");
 
                     System.out.println("1) Alimento");
                     System.out.println("2) Juguete");
@@ -130,9 +125,9 @@ public class MasterSolobiano {
 
                     switch (opcion) {
                         case "1":
-                            System.out.println("********************");
+                            System.out.println("******************");
                             System.out.println("Elige un alimento:");
-                            System.out.println("********************\n\n");
+                            System.out.println("******************\n");
 
                             System.out.println("1) Alimento1");
                             System.out.println("2) Alimento2");
@@ -165,9 +160,9 @@ public class MasterSolobiano {
                             break;
 
                         case "2":
-                            System.out.println("********************");
+                            System.out.println("*****************");
                             System.out.println("Elige un juguete:");
-                            System.out.println("********************\n\n");
+                            System.out.println("*****************\n");
 
                             System.out.println("1) Juguete1");
                             System.out.println("2) Juguete2");
